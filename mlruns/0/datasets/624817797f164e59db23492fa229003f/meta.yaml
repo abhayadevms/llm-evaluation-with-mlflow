@@ -1,0 +1,8 @@
+digest: f426167b
+name: dataset
+profile: '{"num_rows": 2, "num_elements": 4}'
+schema: '{"mlflow_colspec": [{"type": "string", "name": "inputs", "required": true},
+  {"type": "string", "name": "ground_truth", "required": true}]}'
+source: '{"tags": {"mlflow.user": "MSA", "mlflow.source.name": "evaluation.py", "mlflow.source.type":
+  "LOCAL", "mlflow.source.git.commit": "25b09e109da7f062578c2e0e11663491aa792d99"}}'
+source_type: code

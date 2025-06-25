@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/edu/llm-evaluation-with-mlflow/mlruns/0/0ed4775b8843405c9c3ab185865aab9a/artifacts
+end_time: 1750844577236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0ed4775b8843405c9c3ab185865aab9a
+run_name: gentle-snake-584
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750844532993
+status: 4
+tags: []
+user_id: MSA

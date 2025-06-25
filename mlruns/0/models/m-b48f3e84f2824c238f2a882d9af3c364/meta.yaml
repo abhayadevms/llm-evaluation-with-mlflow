@@ -1,0 +1,10 @@
+artifact_location: file:///D:/edu/llm-evaluation-with-mlflow/mlruns/0/models/m-b48f3e84f2824c238f2a882d9af3c364/artifacts
+creation_timestamp: 1750844709038
+experiment_id: '0'
+last_updated_timestamp: 1750844719149
+model_id: m-b48f3e84f2824c238f2a882d9af3c364
+model_type: null
+name: model
+source_run_id: f3f91e390b1f446aabef849b84232aad
+status: 2
+status_message: null

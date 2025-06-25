@@ -3,6 +3,17 @@ import openai
 import os
 import pandas as pd
 from getpass import getpass
+import dagshub
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv() 
+
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+# dagshub.init(repo_owner='mail.abhayadev', repo_name='llm-evaluation-with-mlflow', mlflow=True)
 
 eval_data = pd.DataFrame(
     {
@@ -50,4 +61,7 @@ with mlflow.start_run() as run:
 
     # Evaluation result for each data record is available in `results.tables`.
     eval_table = results.tables["eval_results_table"]
-    print(f"See evaluation table below: \n{eval_table}")
+     
+    df = pd.DataFrame(eval_table)
+    df.to_csv("evaluation_results.csv")
+    print(f"See evaluation table below: \n{eval_table}") 

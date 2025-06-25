@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/edu/llm-evaluation-with-mlflow/mlruns/0/f3f91e390b1f446aabef849b84232aad/artifacts
+end_time: 1750844722655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3f91e390b1f446aabef849b84232aad
+run_name: intrigued-bug-605
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750844708321
+status: 4
+tags: []
+user_id: MSA
